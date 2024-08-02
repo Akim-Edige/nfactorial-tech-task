@@ -1,4 +1,4 @@
-Technical Task for NFACTORIAl School
+Technical Task for Nfactorial School
 
 FROM 7 - 19 commented lines can be uncommented to directly test the functionality.
 
