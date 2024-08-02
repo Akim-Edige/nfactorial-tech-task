@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    </br>
+    <form action="/main" method="post">
+        <label>Timestamp</label>
+        <input type="text" placeholder="" name="timestamp">
+        <label>Message</label>
+        <input type="text" placeholder="" name="message">
+        <button type="submit">Ok</button>
+    </form>
+    <p>Should Print Message: {{res}}</p>
+    <p>Current Timestamp: {{time}}</p>
+    <p>Logger Size: {{size}}</p>
+    </br>
+    </br>
+
+    <form action="/login" method="post">
+        <label>Timestamp</label>
+        <input type="text" placeholder="" name="clean">
+        <button type="submit">CLEAN</button>
+    </form>
+    <p>Is it Clean?: {{clean}} </p>
+</body>
+</html>
